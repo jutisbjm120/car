@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-   <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque delectus doloremque architecto blanditiis amet facere, magnam velit quam incidunt aperiam sed ipsa quas quod exercitationem nisi ullam quaerat odit cumque.</div>
     <router-view/>
+    <Landing></Landing>
   </div>
 </template>
 
 <script>
 import Rem from "../static/js/rem.js"
+import Landing from "../src/zb/landing.vue"
 export default {
   name: 'App',
   mounted(){
     Rem.setrem();
     window.onresize=Rem.setrem;
+  },components:{
+    Landing
   }
 }
 </script>
