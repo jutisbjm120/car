@@ -163,10 +163,11 @@ section {
     margin: 0;
     padding: 0;
     border: none;
+    font-family:"myFirstFont" !important;
 }
 
 body {
-    font-family: Tahoma, Arial, Roboto, "Droid Sans", "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", sans-self;
+    font-family: Tahoma, Arial, Roboto, "Droid Sans", "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", sans-self !important;
     color: #555;
 }
 
