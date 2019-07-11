@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-   <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque delectus doloremque architecto blanditiis amet facere, magnam velit quam incidunt aperiam sed ipsa quas quod exercitationem nisi ullam quaerat odit cumque.</div>
+  
     <router-view/>
   </div>
 </template>
