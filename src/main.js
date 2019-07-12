@@ -6,6 +6,8 @@ import router from './router'
 import store from './store'
 import Vant from 'vant';
 import 'vant/lib/index.css';
+import betterScroll from 'better-scroll'
+window.BS=betterScroll
 Vue.use(Vant);
 Vue.config.productionTip = false;
 
