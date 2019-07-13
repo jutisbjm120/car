@@ -9,6 +9,12 @@ import 'vant/lib/index.css';
 import betterScroll from 'better-scroll'
 window.BS=betterScroll
 Vue.use(Vant);
+import axios from 'axios';
+Vue.prototype.axios=axios;
+//
+import VueBetterScroll from 'vue2-better-scroll';
+Vue.use(VueBetterScroll);
+
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
